@@ -1,2 +1,2 @@
-# rw_lock
-CS170 Project 1a: RW Lock Implementation in C
+# RW Lock Implementation in C
+CS170 Spring 2023 Project 1a
