@@ -1,0 +1,8 @@
+UCSB CS170 Spring 2023 Project 1A Report
+Team Members: Michael Glushchenko (I chose to do the project by myself).
+
+Overview of the work/codeflow:
+
+Following the instructions letting us use a pthreads mutex and condition variables, I used the algorithm we discussed in class (located in synchronization II lecture slides on slides 13, 15, and 16. 
+
+I had no problems implementing the rw lock, the code has comments for each action, all grade scope tests pass.
