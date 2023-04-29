@@ -17,24 +17,24 @@ RWLock::~RWLock() {
 
 void RWLock::startRead() {
     pthread_mutex_lock(&lock);
-    printf("START READ\n");
+    // printf("START READ\n");
     pthread_mutex_unlock(&lock);
 }
 
 void RWLock::doneRead() {
     pthread_mutex_lock(&lock);
-    printf("DONE READ\n");
+    // printf("DONE READ\n");
     pthread_mutex_unlock(&lock);
 }
 
 void RWLock::startWrite() {
     pthread_mutex_lock(&lock);
-    printf("START WRITE\n");
+    // printf("START WRITE\n");
     pthread_mutex_unlock(&lock);
 }
 
 void RWLock::doneWrite() {
     pthread_mutex_lock(&lock);
-    printf("DONE WRITE\n");
+    // printf("DONE WRITE\n");
     pthread_mutex_unlock(&lock);
 }
