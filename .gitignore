@@ -5,3 +5,4 @@
 !.gitignore
 !rwlock.cc
 !rwlock.h
+!README.md
